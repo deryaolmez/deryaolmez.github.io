@@ -1,0 +1,125 @@
+body{
+   background: url(../resimler/indir.jpg);
+   font-family:"Trebuchet Ms";
+   font-size:0.9em;
+   margin-top:0px;
+   margin-bottom:0px;
+   
+   
+}
+^#sayfa
+{
+	width:800px;
+	margin:0px auto;
+	border:1px solid #333;
+	background-color:peachPuff;
+	height:250%;
+	
+}
+#banner
+{
+	border:1px solid black;
+	margin:20px;
+	background-color:maroon;
+	
+}
+#icerik
+{
+	border:1px solid black;
+	padding:5px;
+	margin:18px;
+	height:200%;
+	font-size:small;
+	
+	
+}
+#iceriksol 
+{
+	border:1px solid black;
+	width:250px;
+	height:100%;
+	float:right;
+	background-color:maroon;
+	margin-bottom:0px;
+	
+}
+	
+	
+#iceriksag
+{
+	width:1029px;
+	height:1328px;
+	float:left;
+	background-color:lavender
+	
+	
+	
+	
+}
+#sagmenu
+{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	
+}
+#solmenu li a
+{
+	display:block
+	background:url(../resimler/arkafon.jpg) no repeat;
+	line-height:35px;
+	padding-left:35px;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	margin-bottom:5px;
+	
+}	
+.haberkutu 
+{
+	border:1px solid #ccc;
+	border-bottom:2px solid #333;
+	background:#f9fafb;
+	padding:5px;
+	margin:0px 5px 5px 0px;
+	
+	
+}
+.haberkutu h3
+{
+	margin:0px;
+}
+	
+	
+}
+#icerik1
+{
+	border:1px solid black;
+	margin:5%;
+	background-color:lavender;
+	
+}
+#icerik2
+{
+	border:1px solid black;
+	margin:5%;
+	background-color:lavender;
+	
+}
+#icerik3
+{
+	border:1px solid black;
+	margin:5%;
+	background-color:lavender;
+	
+}
+
+#alt
+{
+    border:1px solid black;
+	margin:5%;
+	background-color:maroon;
+	width:1200px;
+	
+	
+}

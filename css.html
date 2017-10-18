@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>Programlama Sanatı</title>
+	<meta http-equiv="content-type" content="text/html" charset=utf-8" />
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="sayfa">
+    <div id="banner"><img src="resimler/Adsiz.png"/> </div>
+	<div class="temizle"></div>
+	<div id="icerik">
+	    <div id="iceriksol">
+		  <ul id="solmenu">
+		    <li><a href="index.html">Programlama Nedir</a></li>
+			<li><a href="html.html">HTML</a></li>
+			<li><a href="css.html">CSS</a></li>
+			
+		  </ul>
+		  <h2>Haberler</h2>
+		  <div class="haberkutu">
+		    <h3>Apple yüksekokullarda uygulama geliştirme dersi verecek</h3>
+			<p><img src="resimler/Apple.png" />Geçtiğimiz mayıs ayında; 180 saatlik bir eğitim programı,
+            ders planları, alıştırmalar ve kılavuzla birlikte ücretsiz bir uygulama
+            geliştirme programı başlatan Apple, eğitim kurumlarında da uygulama geliştirme ve
+            kodlamaya yönelik yeni çalışmaların yapılması için önemli bir adım attı.
+            Apple tarafından yapılan duyuruya göre şirket, ABD'de 30'u aşkın yüksekokulda
+            önümüzdeki eğitim yılından itibaren uygulanacak olan yeni bir program başlatıyor.
+			</p>
+		  
+		  </div>
+		   <div class="haberkutu">
+		    <h3>GitHub, 2017'nin En Popüler Programlama Dillerini Açıkladı!</h3>
+			<p><img src="resimler/Apple.png" />GitHub, her yıl olduğu gibi bu yıl da en çok 
+			etkileşim gören projelere göre en popüler programlama dillerinin bulunduğu Octoverse raporunu açıkladı.
+            Programcıların Facebook’u diyebileceğimiz, yazılım geliştirme projeleri için web tabanlı bir depolama 
+			servisi olan GitHub, her yıl programcılar tarafından en çok kullanılan programlama dillerini açıklayan ‘Octoverse’unu raporunu paylaştı.
+			</p>
+		  
+		  </div>
+		   
+		  
+		</div>
+		
+		<div id="iceriksag">
+		    <h1>CSS (STİL ŞABLON) </h1>
+
+            
+		    <p>CSS (Cascading Style Sheets) diğer deyimiyle Stil Şablon HTML yazım şekli olarak etiket türünde bir yazım dilidir. Sahip olduğu özelliklerin kısıtlı olması nedeniyle sayfanın dizaynında bize tam esneklik veremese de büyük kolaylıklar sağlamaktadır.</p>
+			<p>Kullanım kolaylığı ve kullanışlılığı ile HTML’e eklenmesinden itibaren çoğu web tasarımcısının gözdesi olmuştur. Her türlü sayfa dizaynında müthiş bir esneklik sağlamaktadır. Ayrıca bağlantılı stil şablonlar aracılığı ile de birden çok sayfaya etkiyebilir. Bu da bize sitenin görünümün değiştirmek istediğimizde elimizdeki onlarca belki de yüzlerce sayfanın kodlarını değiştirmeden sadece css dosyasının değiştirerek bu imkanı sağlar</p>
+		    <h2>Yerel Stil Şablonu </h2>
+			<p>Yerel Stil Şablonlar, uygulanacak etiketi sadece bir kez bulunduğu yerde (yerel) etkiler. </p>
+		    <h3>Global Stil Şablonu </h3>
+            <p>Global Stil Şablonları bir önceki örnekte yaptığımız h2 etiketinin tüm sayfada aynı özellikte olması istendiğinde kullanılır. Bunu için Stil Şablon özellikleri sayfanın başlangıcında (< head></ head> etiketleri arasında) tanımlanır.</p>
+			<p>Stil Şablon tanımlamaları < head> </ head> etiketleri arasında < style type="text/css"> ile başlayıp </ style> ile bitmelidir. < !-- Etiketi ile CSS’den anlamayan tarayıcıların bu kısmı geçmesini sağlıyoruz. Bu saklama işlemi --> etiketi ile son bulmaktadır.</p>
+		    <h4>Bağlantılı Stil Şablon </h4>
+            <p>Global stil şablonu, sitemiz içerisindeki tüm sayfalarda aynı stil özelliklerini kullanmak istediğimizde kullanırız. Uygularken, stillerimizi yukarıda örneklerini verdiğimiz şekilde hazırlarız. Fakat bu stil listesini html dosyamızın içerisinde değil de boş bir sayfaya yazarız ve css uzantılı bir şekilde kaydederiz. Ardından da html dosyamızın içerisine yine < head> </ head> etiketleri arasına < link rel="stylesheet" type="text/css" href="dosya_ismi.css"> şeklinde ekleriz. </p>
+		    <h5>Font Özellikleri </h5>
+            <p> font-family : Font tipini belirler. Arial, Courier, Verdana gibi font isimlerini alabilir. 
+			    font-weight : Fontun kalınlı incelik durumunu belirler. 
+				normal : Fontun normal halde olmasını sağlar. Bu özellik yazılmadığında normal özellik alınır.
+				font-style : Fontun yatık olup olmamasını sağlar.
+				color : Fontun rengini belirler. Blue, red,green gibi renklerin ingilizce karşılıklarını alabilir.</p>
+		    <h6>Text Özellikleri </h6>
+			<h1> text-transform : </h1>
+            <p>lowercase : Yazının tümünün küçük harf olmasını sağlar. 
+			   uppercase : Yazının tümünün büyük harf olmasını sağlar. 
+			   capitalize : Yazının istenilen şekilde kalmasını sağlar.</p> 
+		    <h2> text-decoration : </h2>
+            <p>underline : Yazının altının çizili olmasını sağlar. 
+			   overline : Yazının üstünün çizili olmasının sağlar.
+			   line-through : Yazının üstünün çizili olmasını sağlar. 
+			   none : Yazının herhangi bir yerine çizgi çekilmemesini sağlar. </p>
+			<h3>text-align: </h3>
+			<p>left: Yazının sola bitişik olmasını sağlar. 
+			      center : Yazının ortada olmasının sağlar
+				  right : Yazının sağa bitişik olmasını sağlar. 
+				  line-height :Yazının normal satırdan çizgi yüksekliğini belirler. 3px, 5px gibi değerler alır.
+				  text-ident : Yazının soldan ne kadar boşlukla içeriden başlayacağını belirler. 5px, 10px gibi değerler alır. </p>
+		    <h4>Background Özellikleri </h4>
+			<h5>background-color :  </h5>
+			<p>Arka fonun rengini belirler. Css’te renkleri blue, red gibi tanımlayabileceğimiz gibi Html kodunu vererekte tanımlayabiliriz. </p>
+			<h6>background-image :    </h6>
+			<p>Arka fonu bir resim dosyası yapmak için kullanılır. url etiketinin içine resim dosyasının yolu ve ismi tam olarak yazılmalıdır.  </p>
+			<h1>background-position :   </h1>
+			<p>left : Arka fondaki resmin sadece sol tarafta olmasını sağlar. 
+			   center : Arka fondaki resmin sadece sol tarafta olmasını sağlar. 
+			   right : Arka fondaki resmin sadece sol tarafta olmasını sağlar. </p>
+		    <h2>background-repeat :  </h2>
+			<p>Arkafondaki resmin tekrarlanması istendiğinde kullanılır.  
+			   repeat : Tüm yönlerde tekrar edilmesini sağlar. 
+			   repeat-x : X (yatay) yönünde tekrar edilmesini sağlar. 
+			    repeat-y : Y (dikey) yönünde tekrar edilmesini sağlar. 
+				no-repeat : Resmin tekrar edilmeyerek bir kere gösterilmesini sağlar.  </p>
+	        <h3>List Özellikleri </h3>
+			<p>Bu Css özelliği < UL> ve < LI> html etiketleri ile oluşturduğumuz listelerin özelliklerini belirlemek için kullanılır. </p>
+			<h4> list-style-type : </h4>
+			<p>disk : Liste biçiminin disk (içi dolu yuvarlak) şeklinde olmasını sağlar. 
+			   circle : Liste biçiminin çember şeklinde olmasını sağlar. 
+			   lower-roman : Liste biçiminin i,ii,iii, gibi roma rakamlarının küçük harfi olmasını sağlar.  
+			   upper-roman: Liste biçiminin I,II,II gibi roma rakamlarının büyük harfi olmasını sağlar. 
+			   inside : Listenin ikinci satırının en soldan başlamasını sağlar. 
+			   list-style-image : Liste biçiminin resim olmasını sağlar.  </p>
+			   
+		
+		</div>
+		<div class="temizle"></div>
+		 
+	</div>
+	<div id="alt">TÜM HAKLAR DERYA ÖLMEZ'E AİTTİR..</div>
+</div>	 
+</body>
+</html>
