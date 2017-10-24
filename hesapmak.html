@@ -3,6 +3,8 @@
     <title>Programlama Sanatı</title>
 	<meta http-equiv="content-type" content="text/html" charset=utf-8" />
 	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+     <link href="css/hesapmakinesi.css" rel="stylesheet" lang="en">
+    <script src="javaScript/hesapmakinesi.js"></script>                                                          
 </head>
 <body>
 <div id="sayfa">
@@ -43,36 +45,42 @@
 		</div>
 		
 		<div id="iceriksag">
-		    <h1>Programlama nedir?</h1>
-
-            <p>Programlama ya da diğer adıyla yazılım, bilgisayarın donanımına nasıl 
-            davranacağını anlatan, bilgisayara yön veren komutlar, kelimeler, aritmetik 
-            işlemler kısaca herşeydir.Diğer bir tanım verecek olursak programlama,
-            bilgisayar programlarının yazılması, test edilmesi ve bakımının yapılması 
-            sürecine verilen isimdir.</p>
-		    <h2>Programlama Çeşitleri</h2>
-		    <h3>Modüler Programlama</h3>
-            <p>Bir modül, bir bütünün içinde diğer elemanlarının çalışmasından bağımsız
-            çalışabilen bir parça olarak tanımlanabilir.
-            Bir problemi bu şekilde çözmeye çalışmak modüler programlamadır.</p>
-		    <h3>Programlama Dili</h3>
-            <p>Programlama dili, yazılımcının bir algoritmayı ifade etmek amacıyla,  
-		    bir bilgisayara ne yapmasını istediğini anlatmasının tektipleştirilmiş
-		    yoludur. Programlama dilleri, yazılımcının bilgisayara hangi veri üzerinde
-		    işlem yapacağını, verinin nasıl depolanıp iletileceğini göstermesini sağlar.</p>
-		    <h3>Yapısal Programlama</h3>
-            <p> Yapısal programlama, programlama dilleri kullanılarak yazılan, mantıksal bütünlük
-		    gösteren bloklara (bölümlere) bölünebilirler. Bu yolla uzun ve karmaşık programların,
-		    bloklara ayırarak daha kolay biçimde yazılabilmesi mümkün olmaktadır.</p>
-		    <h3>Matematiksel Programlama</h3>
-            <p>Matematiksel programlama, iktisatta ve işletme iktisadında kullanılan matematiksel yöntem.
-		    Matematiksel programlamayla işletme etkinlikleri değişik amaçlar için uygun biçimde 
-		    düzenlenebilen matematiksel denklemlerle betimlenir.</p> 
-		    <h3> Fonksiyonlar (programlama)</h3>
-            <p>C'de alt programlara fonksiyon denir. Fonskiyon sözcüğü burada matematiksel anlamıyla değil
-		    diğer programlama dillerinde kullanılan, "alt program", "prosedür", "subroutine" sözcüklerinin 
-		    karşılığı olarak kullanılmaktadır.</p>
-		
+            <div id="metinkutusu"></div>               
+		    <div id="menu">
+             <div id="kolon1">
+              <button class="del-bg" id="sil">SIL</button>
+                 <button value="%" class="btn-style operator opera-bg fall-back">%</button>
+                 <button value="+" class="btn-style opera-bg value align operator">+</button>
+                 </div>
+                 
+               <div class="kolon">
+             <button value="7" class="btn-style num-bg num first-child">7</button>
+                 <button value="8" class="btn-style num-bg num">8</button>
+                 <button value="9" class="btn-style num-bg num">9</button>
+                 <button value="-" class="btn-style opera-bg operator">-</button>
+                 </div>
+                 
+                 <div class="kolon">
+                 <button value="4" class="btn-style num-bg num first-child">4</button>
+                 <button value="5" class="btn-style num-bg num">5</button>
+                 <button value="6" class="btn-style num-bg num">6</button>
+                 <button value="*" class="btn-style opera-bg operator">x</button>
+                 </div>
+                 
+                 <div class="kolon">
+                 <button value="1" class="btn-style num-bg num first-child">1</button>
+                 <button value="2" class="btn-style num-bg num">2</button>
+                 <button value="3" class="btn-style num-bg num">3</button>
+                 <button value="/" class="btn-style opera-bg operator">/</button>
+                 </div>
+                 
+                 <div class="kolon">
+                 <button value="0" class="num-bg zero" id="sil">0</button>
+                 <button value="." class="btn-style num-bg period fall-back">.</button>
+                 <button value="=" id="eqn-bg" class="eqn align">=</button>
+                 </div>
+                
+             </div>
 		</div>
 		<div class="temizle"></div>
 		 
